@@ -1,5 +1,4 @@
 import { createContext, useCallback, useContext, useMemo, useState } from 'react';
-import './Toast.css';
 
 const ToastCtx = createContext(null);
 
