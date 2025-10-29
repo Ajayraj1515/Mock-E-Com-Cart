@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { getCart, removeFromCart, updateCartItem } from '../api/client.js';
 import { useToast } from './ToastContext.jsx';
 import { formatINR } from '../utils/currency.js';
-import './Cart.css';
 
 export default function CartView() {
   const [cart, setCart] = useState({ items: [], total: 0 });
