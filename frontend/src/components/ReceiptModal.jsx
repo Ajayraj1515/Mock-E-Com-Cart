@@ -1,4 +1,3 @@
-import './Modal.css';
 import { formatINR } from '../utils/currency.js';
 
 export default function ReceiptModal({ open, onClose, receipt }) {
