@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { addToCart, fetchProducts } from '../api/client.js';
 import { useToast } from './ToastContext.jsx';
 import { formatINR } from '../utils/currency.js';
-import './ProductList.css';
 
 export default function ProductList() {
   const [products, setProducts] = useState([]);
